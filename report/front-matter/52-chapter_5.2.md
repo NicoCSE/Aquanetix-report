@@ -55,11 +55,13 @@ A continuación, se detallan las User Stories priorizadas y las tareas asociadas
 
 | US Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 |------|------|--------|------------|------------|-------------------|-------------|--------|
-| US-35 | Product value visualization | T-01 | Landing page structure | Diseño e implementación de la estructura general y sección principal (hero) de la landing page | 6 | Sebastián Pinedo | Done |
-| US-36 | System features visualization | T-02 | Features section development | Diseño y desarrollo de la sección de funcionalidades destacando las capacidades del sistema | 5 | Sebastián Cochachi | Done |
-| US-37 | Contact information access | T-03 | Contact and CTA section | Implementación de sección de contacto y botones de llamada a la acción | 4 | Nicolás Castro | Done |
-| US-35 | Product value visualization | T-04 | Content definition and UX writing | Definición del contenido textual y estructura comunicativa de la landing | 4 | Leonardo Cabrera | Done |
-| US-36 | System features visualization | T-05 | Visual design elements | Diseño de elementos visuales y apoyo gráfico para mejorar la experiencia de usuario | 4 | Renzo Bojórquez | In-Process |
+| US-35 | Visualización de información de producto | T-01 | Creación de la Landing page | Crear la página web del producto | 6 | Sebastián Pinedo | Done |
+| US-36 | Visualización de funcionalidades del sistema | T-02 | Lista de funcionalidades | Crear una lista de componentes de "Funcionalidades" | 5 | Sebastián Cochachi | Done |
+| US-37 | Acceso a información de contacto o interés | T-03 | Sección de Contacto y CTA | Diseñar la sección de contacto siguiendo la línea estética de la marca. | 4 | Nicolás Castro | Done |
+| US-35 | Visualización de información de producto | T-04 | Definición de contenido y escritura UX | Redactar y maquetar los textos descriptivos y beneficios del sistema | 4 | Leonardo Cabrera | Done |
+| US-36 | Visualización de funcionalidades del sistema | T-05 | Elementos de diseño visuales | Implementar efectos de interactividad básica para las cards. | 4 | Renzo Bojórquez | In-Process |
+| US-37 | Acceso a información de contacto o interés | T-06 | Formulario de contacto | Crear el componente del formulario con campos básicos (Nombre, Email, Asunto, Mensaje) | 4 | Nicolás Castro | In Process |
+| US-42 | Navegación de contenido | T-07 | Barra de navegación | Implementar la barra de navegación (Navbar) funcional. | 4 | Nicolás Castro | In Process |
 
 #### 5.2.1.4 Development Evidence for Sprint Review
 
