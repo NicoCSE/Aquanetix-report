@@ -60,8 +60,12 @@ A continuación, se detallan las User Stories priorizadas y las tareas asociadas
 | US-37 | Acceso a información de contacto o interés | T-03 | Sección de Contacto y CTA | Diseñar la sección de contacto siguiendo la línea estética de la marca. | 4 | Nicolás Castro | Done |
 | US-35 | Visualización de información de producto | T-04 | Definición de contenido y escritura UX | Redactar y maquetar los textos descriptivos y beneficios del sistema | 4 | Leonardo Cabrera | Done |
 | US-36 | Visualización de funcionalidades del sistema | T-05 | Elementos de diseño visuales | Implementar efectos de interactividad básica para las cards. | 4 | Renzo Bojórquez | In-Process |
-| US-37 | Acceso a información de contacto o interés | T-06 | Formulario de contacto | Crear el componente del formulario con campos básicos (Nombre, Email, Asunto, Mensaje) | 4 | Nicolás Castro | In Process |
-| US-42 | Navegación de contenido | T-07 | Barra de navegación | Implementar la barra de navegación (Navbar) funcional. | 4 | Nicolás Castro | In Process |
+| US-37 | Acceso a información de contacto o interés | T-06 | Formulario de contacto | Crear el componente del formulario con campos básicos (Nombre, Email, Asunto, Mensaje) | 4 | Nicolás Castro | Done |
+| US-42 | Navegación de contenido | T-07 | Barra de navegación | Implementar la barra de navegación (Navbar) funcional. | 4 | Nicolás Castro | Done |
+| US-43 | Comprensión del problema | T-08 | Descripción de problemática | Escribir la problemática a enfrentar con sustento estadístico. | 4 | Nicolás Castro | Done |
+| US-43 | Comprensión del problema | T-09 | Descripción de visión | Mostrar la visión que Aquanetix tiene frente a dicho problema. | 4 | Nicolás Castro | Done |
+
+Escribir la problemática a enfrentar con sustento estadístico
 
 #### 5.2.1.4 Development Evidence for Sprint Review
 
