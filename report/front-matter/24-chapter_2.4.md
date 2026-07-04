@@ -1,6 +1,6 @@
 ### 2.4. Big Picture Event Storming
 
-En esta sección se presenta el Big Picture Event Storming desarrollado para comprender el funcionamiento del dominio de la gestión del agua sobre el cual se desarrolla Aquanetix. Mediante una sesión colaborativa, el equipo identificó los principales eventos del negocio, organizó los procesos cronológicamente e incorporó los comandos, actores y políticas de negocio que intervienen en cada flujo. Todo el modelado fue realizado utilizando la plataforma Miro, permitiendo construir el mapa de manera colaborativa y facilitar la comprensión de los procesos del dominio.
+En esta sección se presenta el Big Picture Event Storming desarrollado para comprender el funcionamiento del dominio de la gestión del agua sobre el cual se desarrolla Aquanetix. Mediante una sesión colaborativa, el equipo identificó los principales eventos del negocio, organizó los procesos cronológicamente e incorporó los Commands, Actors y Business Policies que intervienen en cada flujo. Todo el modelado fue realizado utilizando la plataforma Miro, permitiendo construir el mapa de manera colaborativa y facilitar la comprensión de los procesos del dominio. Con el fin de brindar una mejor visualización del proceso de modelado, el tablero desarrollado en Miro se encuentra disponible en el siguiente enlace: https://shorturl.at/zs9sJ
 
 #### Paso 1: Identificación de Domain Events
 
