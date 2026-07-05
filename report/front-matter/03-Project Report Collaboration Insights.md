@@ -32,3 +32,13 @@ Para la entrega del AV2, se procede a mostrar el análisis de colaboración, el 
 La siguiente imagen representa todos los commits realizados en el repositorio a lo largo del mes de Mayo y Junio.
 
 <div align="center"><img src="../assets/github/Group_commits_AV2.png" width ="100%"></div>
+
+## Trabajo Final (TB2)
+
+Para la entrega del TB2, se procede a mostrar el análisis de colaboración, el cual representa el número de contribuciones realizadas en el repositorio del informe.
+
+<div align="center"><img src="../assets/github/Analysis_commits_TB2.png" width ="100%"></div>
+
+La siguiente imagen representa todos los commits realizados en el repositorio a lo largo del mes de Junio y Julio.
+
+<div align="center"><img src="../assets/github/Group_commits_TB2.png" width ="100%"></div>
