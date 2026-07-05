@@ -689,7 +689,7 @@ El objetivo del presente Sprint abarcó tanto la refactorización visual de la L
   <img src="../assets/Jira/[COMPLETAR_NOMBRE_DE_TU_IMAGEN_JIRA_2].png">
 </div>
 
-Enlace a la herramienta utilizada: [COMPLETAR ENLACE DE JIRA]
+Enlace a la herramienta utilizada: https://shorturl.at/xs1Pv
 
 A continuación, se detallan las User Stories priorizadas y las tareas asociadas (incluyendo las tareas de la Landing Page y las de los demás módulos):
 
