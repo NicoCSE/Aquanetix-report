@@ -27,3 +27,9 @@ https://www.woimacorporation.com/drowning-in-waste-case-lima-peru/
 https://trade.ec.europa.eu/access-to-markets/en/country-assets/pe_solid_waste.pdf
 -	Autoridad Nacional del Agua. (2026). ANA promueve el reúso de aguas residuales para fortalecer la gestión sostenible del recurso hídrico.
 https://www.gob.pe/institucion/ana/noticias/1368267-ana-promueve-el-reuso-de-aguas-residuales-para-fortalecer-la-gestion-sostenible-del-recurso-hidrico
+- Vue.js. (s. f.). The Progressive JavaScript Framework | Vue.js. https://vuejs.org/
+- Vue i18N. (s. f.). Internationalization plugin for Vue.js | Vue i18N. https://vue-i18n.intlify.dev/
+- PrimeVue | Vue UI Component Library. (s. f.). https://primevue.dev/
+- axios | Promise based HTTP client. (s. f.). https://axios.rest/es/
+- Vue Router | The official Router for Vue.js. (s. f.). https://router.vuejs.org/
+- Pinia | The intuitive store for Vue.js. (s. f.). https://pinia.vuejs.org/
