@@ -775,5 +775,5 @@ El despliegue de los componentes del Sprint 4 se realizó en las siguientes plat
 Para el desarrollo de este cuarto sprint, el equipo colaboró activamente dividiendo esfuerzos: mientras un frente se encargaba del rediseño completo de la Landing Page, los demás miembros trabajaron en la estabilización e integración de la Web Application y la Web Platform.
 
 <p align = "left">
-   <img src="../assets/insights/[COMPLETAR_NOMBRE_CAPTURA_INSIGHTS_SPRINT4].jpg">
+   <img src="../assets/insights/team-insights-TB2.png">
 </p>
