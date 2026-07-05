@@ -461,25 +461,20 @@ A continuación, se detallan las User Stories priorizadas y las tareas asociadas
 
 | US Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 |------|------|--------|------------|------------|-------------------|-------------|--------|
-| US-03 | Ajuste de frecuencia de monitoreo | T-01 | Exponer endpoint de tipo PUT | Implementar campo de frecuencia de monitoreo en el aggregate Device (agregar MonitoringFrequencySeconds) | 2 | Renzo Bojórquez | Done |
-| US-03 | Ajuste de frecuencia de monitoreo | T-02 | Exponer endpoint de tipo PUT | Implementar comando de actualización de dispositivo (UpdateDeviceCommand) con todos los campos actualizables | 2 | Renzo Bojórquez | Done |
-| US-03 | Ajuste de frecuencia de monitoreo | T-03 | Exponer endpoint de tipo PUT | Exponer endpoint REST implementando comando de actualización (PUT/api/v1/devices/{id}) en DevicesController | 2 | Renzo Bojórquez | Done |
-| US-03 | Ajuste de frecuencia de monitoreo | T-04 | Persistir la configuración de frecuencia actualizando ModelBuilderExtensions con la nueva columna | 2 | Renzo Bojórquez | Done |
-| US-03 | Ajuste de frecuencia de monitoreo | T-05 | Exponer endpoint de tipo PUT | Crear branch feature/update-device y PR a develop | 2 | Renzo Bojórquez | Done |
-| US-04 | Configuración de visualización del monitoreo | T-06 | Exponer endpoint de tipo GET | Implementar consulta de listado completo de dispositivos (GetAllDevicesQuery) en la capa de dominio  | 2 | Renzo Bojórquez | Done |
-| US-04 | Configuración de visualización del monitoreo | T-07 | Exponer endpoint de tipo GET | Exponer endpoint REST para listar dispositivos (GET /api/v1/devices) implementando GetAllDevicesQuery en DevicesController | 2 | Renzo Bojórquez | Done |
-| US-04 | Configuración de visualización del monitoreo | T-08 | Exponer endpoint de tipo GET | Registrar servicios del BC Devices (IDeviceRepository, IDeviceQueryService, IDeviceCommandService) en Program.cs  | 2 | Renzo Bojórquez | Done |
-| US-04 | Configuración de visualización del monitoreo | T-09 | Exponer endpoint de tipo GET | Habilitar configuración de persistencia del BC Devices (ApplyDevicesConfiguration()) en AppDbContext | 2 | Renzo Bojórquez | Done |
-| US-04 | Configuración de visualización del monitoreo | T-10 | Crear branch feature/get-all-devices y PR a develop | Crear branch feature/get-all-devices y PR a develop | 2 | Renzo Bojórquez | Done |
-| US-39 | Configuración de límites de caudal para detección de fugas u obstrucciones | T-11 | Exponer endpoint de tipo POST | Implementar repositorio de umbrales de dispositivo (IThresholdRepository y ThresholdRepository) | 2 | Renzo Bojórquez | Done |
-| US-39 | Configuración de límites de caudal para detección de fugas u obstrucciones | T-12 | Exponer endpoint de tipo POST | Implementar comandos de gestión de umbrales (CreateThresholdCommand y UpdateThresholdCommand) | 2 | Renzo Bojórquez | Done |
-| US-39 | Configuración de límites de caudal para detección de fugas u obstrucciones | T-13 | Exponer endpoint de tipo POST | Exponer endpoint REST para registrar umbrales de caudal (POST /api/v1/devices/{id}/thresholds) | 2 | Renzo Bojórquez | Done |
-| US-39 | Configuración de límites de caudal para detección de fugas u obstruccciones. | T-03 | Exponer endpoint de tipo POST | Exponer endpoint REST para consultar umbrales configurados ('GET/api/v1/devices/{id}/thresholds') | 6 | Nicolás Castro | Done |
-| US-39 | Configuración de límites de caudal para detección de fugas u obstrucciones | T-15 | Exponer endpoint de tipo POST | Persistir configuración de umbrales actualizando migración con tabla threshold_configurations | 2 | Renzo Bojórquez | Done |
-| US-39 | Configuración de límites de caudal para detección de fugas u obstrucciones | T-16 | Exponer endpoint de tipo POST | Crear branch feature/device-thresholds y PR a develop | 2 | Renzo Bojórquez | Done |
-| US-21 | Visualización gráfica | T-02 | Exponer endpoint de tipo GET | Exponer endpoint REST para listar análisis ('GET/api/v1/quality-analysis') implementando 'GetAllQualityAnalysesQuery' en 'QualityAnalysisController'  | 4 | Sebastián Pinedo | Done |
-| US-01 | Suscripción automatizada y control de acceso. | T-04 | Prueba de registro de suscripciones | Insertar datos de prueba en tabla 'subscriptions' para validar el endpoint ('GET/api/v1/subscriptions/{id}')| 5 | Sebastián Cochachi | Done |
-| US-27 | Registro de volúmenes reutilizables | T-05 | Exponer endpoint de tipo DELETE | Exponer endpoint REST para eliminar lotes {'DELETE/api/v1/water-batches/{id}'} en 'WaterBatchesController'| 4 | Leonardo Cabrera| Done |
+| US-03 | Ajuste de frecuencia de monitoreo | T-01 | Exponer endpoint de tipo PUT | Exponer endpoint REST implementando comando de actualización (PUT/api/v1/devices/{id}) en DevicesController | 2 | Renzo Bojórquez | Done |
+| US-04 | Configuración de visualización del monitoreo | T-02 | Exponer endpoint de tipo GET | Implementar consulta de listado completo de dispositivos (GetAllDevicesQuery) en la capa de dominio  | 2 | Renzo Bojórquez | Done |
+| US-39 | Configuración de límites de caudal para detección de fugas u obstrucciones | T-03 | Exponer endpoint de tipo POST | Exponer endpoint REST para registrar umbrales de caudal (POST /api/v1/devices/{id}/thresholds) | 2 | Nicolás Castro | Done |
+| US-39 | Configuración de límites de caudal para detección de fugas u obstruccciones. | T-04 | Exponer endpoint de tipo GET | Exponer endpoint REST para consultar umbrales configurados ('GET/api/v1/devices/{id}/thresholds') | 6 | Nicolás Castro | Done |
+| US-07 | Identificación de variaciones anómalas | T-05 | Exponer endpoint dee tipo POST | Exponer endpoint REST para registrar alertas (POST /api/v1/alerts) | 2 | Sebastián Cochachi | Done |
+| US-13 | Consulta de alertas activas | T-06 | Exponer endpoint de tipo GET | Exponer endpoint REST para consultar alertas activas (GET /api/v1/alerts?status=Activa) | 4 | Nicolás Castro | Done |
+| US-14 | Registro del historial de alertas | T-07 | Exponer endpoint de tipo GET | Exponer endpoint REST para actualizar y resolver alertas (PUT /api/v1/alerts/{id}) | 4 | Nicolás Castro | Done |
+| US-21 | Visualización gráfica | T-08 | Exponer endpoint de tipo GET | Exponer endpoint REST para listar análisis ('GET/api/v1/quality-analysis')  | 4 | Sebastián Pinedo | Done |
+| US-31 | Generación de reportes operativos | T-09 | Exponer endpoint de tipo POST | Exponer endpoint REST para registrar análisis de calidad (`POST /api/v1/quality-analysis`) | 4 | Sebastián Pinedo | Done |
+| US-25 | Visualización gráfica | T-10 | Exponer endpoint de tipo POST | Exponer endpoint REST para registrar análisis de calidad (`POST /api/v1/quality-analysis`) implementando `CreateQualityAnalysisCommand` | 4 | Leonardo Cabrera | Done |
+| US-26 | Visualización gráfica | T-11 | Validación de datos | Implementar validación de volumen (mayor a cero y no nulo) en `WaterBatchCommandService` para garantizar datos coherentes | 1 | Leonardo Cabrera | Done |
+| US-27 | Registro de volúmenes reutilizables | T-12 | Exponer endpoint de tipo DELETE | Exponer endpoint REST para eliminar lotes {'DELETE/api/v1/water-batches/{id}'} en 'WaterBatchesController'| 4 | Leonardo Cabrera | Done |
+| US-01 | Suscripción automatizada y control de acceso. | T-13 | Prueba de registro de suscripciones | Insertar datos de prueba en tabla 'subscriptions' para validar el endpoint ('GET/api/v1/subscriptions/{id}')| 3 | Sebastián Cochachi | Done |
+| US-01 | Renovación automática de suscripción. | T-14 | Exponer endpoint de tipo PUT | Exponer endpoint REST para actualizar suscripción (`PUT /api/v1/subscriptions/{id}`) | 3 | Sebastián Cochachi | Done |
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
 
