@@ -200,11 +200,23 @@ A continuación, se detallan las User Stories priorizadas y las tareas asociadas
 | US-05 | Visualización de datos en tiempo real | T-06 | Crear modelo de datos de sensores | Crear modelo de datos de sensores | 5 | Renzo Bojórquez | Done |
 | US-05 | Visualización de datos en tiempo real | T-07 | Mostrar información de sensores en tabla de monitoreo | Mostrar información de sensores en tabla de monitoreo | 5 | Renzo Bojórquez | Done |
 | US-05 | Visualización de datos en tiempo real | T-08 | Configurar indicadores visuales de estado | Mostrar información de sensores en tabla de monitoreo | 5 | Renzo Bojórquez | Done |
-| US-11 | Generar alertas automáticas por valores fuera de rango | T-09 | Implementar lógica de detección de valores críticos | Implementar lógica de detección de valores críticos | 4 | Nicolás Castro | Done |
-| US-11 | Generar alertas automáticas por valores fuera de rango | T-10 | Configurar generación automática de alertas | Configurar generación automática de alertas | 4 | Nicolás Castro | In-Process |
-| US-11 | Generar alertas automáticas por valores fuera de rango | T-11 | Mostrar información relevante en el módulo de alertas | Mostrar información relevante en el módulo de alertas | 4 | Nicolás Castro | In-Process |
-| US-12 | Clasificar alertas según nivel de riesgo | T-12 | Implementar lógica de clasificación automática de alertas por nivel de riesgo | Implementar lógica de clasificación automática de alertas por nivel de riesgo | 4 | Leonardo Cabrera | In-Process |
-| US-12 | Clasificar alertas según nivel de riesgo | T-13 | Diseñar e implementar diferenciación visual de alertas por nivel de riesgo | Implementar lógica de clasificación automática de alertas por nivel de riesgo | 4 | Leonardo Cabrera | In-Process |
+| US-11 | Generar alertas automáticas por valores fuera de rango | T-09 | Implementar lógica de detección de valores críticos | Implementar lógica de detección de valores críticos | 2 | Nicolás Castro | Done |
+| US-11 | Generar alertas automáticas por valores fuera de rango | T-10 | Configurar generación automática de alertas | Configurar generación automática de alertas | 2 | Nicolás Castro | In-Process |
+| US-11 | Generar alertas automáticas por valores fuera de rango | T-11 | Mostrar información relevante en el módulo de alertas | Mostrar información relevante en el módulo de alertas | 2 | Nicolás Castro | In-Process |
+| US-12 | Clasificar alertas según nivel de riesgo | T-12 | Implementar lógica de clasificación automática de alertas por nivel de riesgo | Implementar lógica de clasificación automática de alertas por nivel de riesgo | 2 | Leonardo Cabrera | In-Process |
+| US-12 | Clasificar alertas según nivel de riesgo | T-13 | Diseñar e implementar diferenciación visual de alertas por nivel de riesgo | Diseñar e implementar diferenciación visual de alertas por nivel de riesgo| 2 | Leonardo Cabrera | In-Process |
+| US-20 | Visualización de indicadores | T-14 | Diseñar la interfaz de visualización de indicadores | Diseñar la interfaz de visualización de indicadores | 2 | Leonardo Cabrera | In-Process |
+| US-20 | Visualización de indicadores | T-15 | Desarrollar los componentes visuales para los indicadores clave | Desarrollar los componentes visuales para los indicadores clave | 2 | Leonardo Cabrera | In-Process |
+| US-23 | Visualización del estado general del sistema | T-16 | Implementar validación de umbrales críticos | Implementar validación de umbrales críticos | 2 | Sebastián Pinedo | In-Process |
+| US-23 | Visualización del estado general del sistema | T-17 | Generar alertas automáticas de sensores | Generar alertas automáticas de sensores | 2 | Sebastián Pinedo | In-Process |
+| US-23 | Visualización del estado general del sistema | T-18 | Registrar severidad y ubicación de eventos | Registrar severidad y ubicación de eventos | 2 | Sebastián Pinedo | In-Process |
+| US-23 | Visualización del estado general del sistema | T-19 | Mostrar alertas en el módulo de monitoreo | Mostrar alertas en el módulo de monitoreo | 2 | Sebastián Pinedo | In-Process |
+| US-08 | Renovación automática de suscripción | T-20 | Implementar configuración de renovación automática | Implementar configuración de renovación automática | 2 | Leonardo Cabrera | In-Process |
+| US-08 | Renovación automática de suscripción | T-20 | Validar vencimiento de suscripciones activas | Validar vencimiento de suscripciones activas | 2 | Leonardo Cabrera | In-Process |
+| US-08 | Renovación automática de suscripción | T-20 | Actualizar vigencia después del pago exitoso | Actualizar vigencia después del pago exitoso | 2 | Leonardo Cabrera | In-Process |
+| US-08 | Renovación automática de suscripción | T-20 | Notificar errores en pagos rechazados | Notificar errores en pagos rechazados | 2 | Leonardo Cabrera | In-Process |
+| US-08 | Renovación automática de suscripción | T-20 | Implementar configuración de renovación automática | Implementar configuración de renovación automática | 2 | Leonardo Cabrera | In-Process |
+
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
