@@ -142,5 +142,23 @@ Primero, a José Ignacio se le mostró la landing page de la plataforma Aquaneti
 
 Por último, al ingresar a la aplicación web y revisar el funcionamiento del dashboard, el entrevistado validó rápidamente la estructura visual afirmando que el diseño del panel de control es espectacular. Comentó que al iniciar el día lo primero que revisaría serían las alertas críticas, y consideró que el monitoreo en tiempo real con un formato de semáforo resulta sumamente intuitivo para efectos de ayuda visual. Respecto al tarifario presentado en la sección de suscripciones, José Ignacio lo percibió como una opción muy correcta y flexible para plantas que requieran una gran cantidad de sensores. No obstante, sugirió al equipo que se enfoquen en garantizar un margen mínimo de error desde el primer mes, argumentando que los gerentes de las grandes empresas suelen ser impacientes y exigen un retorno de inversión inmediato.
 
+**Entrevista 3**
+
+Amid Alfonso Liñan
+
+**Evidencia:**
+<p align = "left">
+  <img src="/report/assets/interviews/[COMPLETAR_NOMBRE_DE_LA_FOTO].png">
+</p>
+
+**Enlace de la entrevista:** [COMPLETAR: Enlace de YouTube/Drive]
+
+**Resumen:**
+
+En esta última sesión nos reunimos con Amid, con experiencia en gestión de operaciones y control de procesos, quien participó en la validación de la plataforma Aquanetix. Durante la sesión, interactuó tanto con la Landing Page como con la aplicación web para evaluar su facilidad de uso.
+
+Al revisar la página principal, comentó que el diseño es bastante claro y va directo al grano. Mencionó que la distribución de la información ayuda a entender rápido el propósito del software y consideró que tener la página en dos idiomas es un gran punto a favor. Además, destacó que los botones de contacto son visibles y cumplen bien su función.
+
+Al ingresar al panel de control (Dashboard), su evaluación fue positiva. Señaló que el uso de colores (verde, ámbar y rojo) para el estado de los sensores es muy útil porque permite identificar si hay algún problema de un solo vistazo. Como única sugerencia de mejora para el uso diario, recomendó agregar una opción que permita descargar el historial de las alertas en un formato sencillo como Excel o PDF para facilitar la elaboración de reportes. En general, concluyó que la herramienta es funcional e intuitiva.
 
 ### 5.3.3 Evaluaciones según heurísticas
