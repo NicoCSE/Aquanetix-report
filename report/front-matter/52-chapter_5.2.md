@@ -58,14 +58,20 @@ A continuación, se detallan las User Stories priorizadas y las tareas asociadas
 | US-35 | Visualización de información de producto | T-01 | Creación de la Landing page | Crear la página web del producto | 6 | Sebastián Pinedo | Done |
 | US-36 | Visualización de funcionalidades del sistema | T-02 | Lista de funcionalidades | Crear una lista de componentes de "Funcionalidades" | 5 | Sebastián Cochachi | Done |
 | US-37 | Acceso a información de contacto o interés | T-03 | Sección de Contacto y CTA | Diseñar la sección de contacto siguiendo la línea estética de la marca. | 4 | Nicolás Castro | Done |
-| US-35 | Visualización de información de producto | T-04 | Definición de contenido y escritura UX | Redactar y maquetar los textos descriptivos y beneficios del sistema | 4 | Leonardo Cabrera | Done |
-| US-36 | Visualización de funcionalidades del sistema | T-05 | Elementos de diseño visuales | Implementar efectos de interactividad básica para las cards. | 4 | Renzo Bojórquez | In-Process |
-| US-37 | Acceso a información de contacto o interés | T-06 | Formulario de contacto | Crear el componente del formulario con campos básicos (Nombre, Email, Asunto, Mensaje) | 4 | Nicolás Castro | Done |
-| US-42 | Navegación de contenido | T-07 | Barra de navegación | Implementar la barra de navegación (Navbar) funcional. | 4 | Nicolás Castro | Done |
-| US-43 | Comprensión del problema | T-08 | Descripción de problemática | Escribir la problemática a enfrentar con sustento estadístico. | 4 | Nicolás Castro | Done |
-| US-43 | Comprensión del problema | T-09 | Descripción de visión | Mostrar la visión que Aquanetix tiene frente a dicho problema. | 4 | Nicolás Castro | Done |
-
-Escribir la problemática a enfrentar con sustento estadístico
+| US-35 | Visualización de información de producto | T-04 | Definición de contenido y escritura UX | Redactar y maquetar los textos descriptivos y beneficios del sistema | 4 | Sebastián Pinedo | Done |
+| US-36 | Visualización de funcionalidades del sistema | T-05 | Elementos de diseño visuales | Implementar efectos de interactividad básica para las cards. | 4 | Sebastián Cochachi | In-Process |
+| US-37 | Acceso a información de contacto o interés | T-06 | Formulario de contacto | Crear el componente del formulario con campos básicos (Nombre, Email, Asunto, Mensaje) | 4 | Sebastián Cochachi | Done |
+| US-42 | Navegación de contenido | T-07 | Barra de navegación | Implementar la barra de navegación (Navbar) funcional. | 4 | Renzo Bojórquez | Done |
+| US-43 | Comprensión del problema | T-08 | Descripción de problemática | Escribir la problemática a enfrentar con sustento estadístico. | 4 | Renzo Bojórquez | Done |
+| US-43 | Comprensión del problema | T-09 | Descripción de visión | Mostrar la visión que Aquanetix tiene frente a dicho problema. | 4 | Renzo Bojórquez | Done |
+| US-44 | Acceso a información de respaldo y transparencia | T-10 | Información en enlaces | Agregar información a ambos enlaces. | 4 | Nicolás Castro | In-Process |
+| US-44 | Acceso a información de respaldo y transparencia | T-11 | Crear el footer | Elaborar el footer con los enlaces correspondientes | 4 | Nicolás Castro | Done |
+| US-45 | Solicitud de demostración del sistema. | T-11 | Botón de acceso | Creación del botón para acceder a la plataforma. | 4 | Nicolás Castro | Done |
+| US-01 | Suscripción Automatizada y Control de Acceso | T-12 | Definición de modelos | Definición de Modelos y Colección en Memoria. | 4 | Leonardo Cabrera | Done |
+| US-01 | Suscripción Automatizada y Control de Acceso | T-12 | Endpoint de pagos | Implementación del endpoint de pagos. | 4 | Leonardo Cabrera | Done |
+| US-01 | Suscripción Automatizada y Control de Acceso | T-13 | Lógica de negocio | Implementación de la lógica de negocio en el servicio. | 4 | Leonardo Cabrera | Done |
+| US-01 | Suscripción Automatizada y Control de Acceso | T-14 | Actualizar estado | Implementación de la actualización del estado simulado. | 4 | Leonardo Cabrera | Done |
+| US-01 | Suscripción Automatizada y Control de Acceso | T-15 | Pruebas de estado | Ejecución de pruebas de estado. | 2 | Leonardo Cabrera | Done |
 
 #### 5.2.1.4 Development Evidence for Sprint Review
 
