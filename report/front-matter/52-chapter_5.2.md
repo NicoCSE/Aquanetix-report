@@ -192,13 +192,19 @@ A continuación, se detallan las User Stories priorizadas y las tareas asociadas
 
 | US Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 |------|------|--------|------------|------------|-------------------|-------------|--------|
-| US-38 | Detectar alertas críticas en tiempo real | T-01 | Implementar lógica de detección de alertas | Implementar lógica de detección de alertas | 6 | Sebastián Pinedo | Done |
-| US-5 | Actualizar automáticamente el estado de los sensores | T-02 | Implementar actualización automática de estados | Implementar actualización automática de estados | 5 | Sebastián Cochachi | Done |
-| US-11 | Generar alertas automáticas por valores fuera de rango | T-03 | Configurar generación automática de alertas | Configurar generación automática de alertas | 4 | Nicolás Castro | Done |
-| US-12 | Clasificar alertas según nivel de riesgo | T-04 | Implementar lógica de clasificación automática de alertas por nivel de riesgo | Implementar lógica de clasificación automática de alertas por nivel de riesgo | 4 | Leonardo Cabrera | Done |
-
-
-
+| US-38 | Detectar alertas críticas en tiempo real | T-01 | Implementar lógica de detección de alertas | Implementar lógica de detección de alertas | 6 | Nicolás Castro | Done |
+| US-38 | Detectar alertas críticas en tiempo real | T-02 | Crear modelo de rangos de pH | Crear modelo de rangos de pH | 6 | Nicolás Castro | Done |
+| US-38 | Detectar alertas críticas en tiempo real | T-03 | Desarrollar endpoint de configuración | Desarrollar endpoint de configuración | 6 | Nicolás Castro | Done |
+| US-38 | Detectar alertas críticas en tiempo real | T-04 | Documentar y probar endpoints | Documentar y probar endpoints | 6 | Nicolás Castro | Done |
+| US-05 | Visualización de datos en tiempo real | T-05 | Implementar actualización automática de estados | Implementar actualización automática de estados | 5 | Renzo Bojórquez | Done |
+| US-05 | Visualización de datos en tiempo real | T-06 | Crear modelo de datos de sensores | Crear modelo de datos de sensores | 5 | Renzo Bojórquez | Done |
+| US-05 | Visualización de datos en tiempo real | T-07 | Mostrar información de sensores en tabla de monitoreo | Mostrar información de sensores en tabla de monitoreo | 5 | Renzo Bojórquez | Done |
+| US-05 | Visualización de datos en tiempo real | T-08 | Configurar indicadores visuales de estado | Mostrar información de sensores en tabla de monitoreo | 5 | Renzo Bojórquez | Done |
+| US-11 | Generar alertas automáticas por valores fuera de rango | T-09 | Implementar lógica de detección de valores críticos | Implementar lógica de detección de valores críticos | 4 | Nicolás Castro | Done |
+| US-11 | Generar alertas automáticas por valores fuera de rango | T-10 | Configurar generación automática de alertas | Configurar generación automática de alertas | 4 | Nicolás Castro | In-Process |
+| US-11 | Generar alertas automáticas por valores fuera de rango | T-11 | Mostrar información relevante en el módulo de alertas | Mostrar información relevante en el módulo de alertas | 4 | Nicolás Castro | In-Process |
+| US-12 | Clasificar alertas según nivel de riesgo | T-12 | Implementar lógica de clasificación automática de alertas por nivel de riesgo | Implementar lógica de clasificación automática de alertas por nivel de riesgo | 4 | Leonardo Cabrera | In-Process |
+| US-12 | Clasificar alertas según nivel de riesgo | T-13 | Diseñar e implementar diferenciación visual de alertas por nivel de riesgo | Implementar lógica de clasificación automática de alertas por nivel de riesgo | 4 | Leonardo Cabrera | In-Process |
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
