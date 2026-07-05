@@ -10,20 +10,24 @@ El video inicia con una introducción a la problemática de la brecha hídrica e
 |---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Título del video          | `upc-pre-202610-1asi0730-12242-Aquanetix-about-the-product-tf`                                                                                          |
 | Plataforma de publicación | Microsoft Stream / SharePoint y YouTube                                                                                                                 |
-| URL Microsoft Stream      |                                                                                                                                                         |
-| URL Youtube               |                                                                                                                                                         |
-| Duración                  |                                                                                                                                                         |
-| Fecha de publicación | /2026                                                                                                                                                   |
+| URL Microsoft Stream      | https://shorturl.at/dY9KL                                                                                                                               |
+| URL Youtube               | https://shorturl.at/Pxs7P                                                                                                                               |
+| Duración                  | 02:56 min                                                                                                                                               |
+| Fecha de publicación | 05/07/2026                                                                                                                                              |
 | Testimonio positivo incluido | Testimonios de un usuario del segmento de empresa prestadora de servicios de agua y un usuario del segmento proveedor de servicios de residuos sólidos. |
 
 ### 5.4.4. Evidencia fotográfica del video
 La siguiente captura corresponde al Video About-the-Product publicado para el cierre TF:
 
+<p align="left">
+   <img src="../assets/about_the_product/about_the_product_screenshot.png">
+</p>
+
 ### 5.4.5. Testimonios positivos incluidos
 En el video se incorpora un testimonio positivo de un usuario del segmento de empresa prestadora de servicios de agua y un usuario del segmento proveedor de servicios de residuos sólidos, quienes destacan la utilidad y efectividad de la plataforma Aquanetix para el monitoreo y análisis de la calidad del agua, así como su contribución a la gestión eficiente de los recursos hídricos.
 
-| Segmento                                                        | Testimonio incluido en el video |
-|-----------------------------------------------------------------|---|
-| Usuario del segmento de empresa prestadora de servicios de agua |  |
-| Usuario del segmento proveedor de servicios de residuos sólidos |  |
+| Segmento                                                        | Testimonio incluido en el video                                                                                                                                                                                                                                                         |
+|-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Usuario del segmento de empresa prestadora de servicios de agua | **Liliana Sanchez** : " Veo que esta plataforma tiene lo esencial,¿no? Puedes detectar la contaminación del agua, puedes prevenirlo."                                                                                                                                                   |
+| Usuario del segmento proveedor de servicios de residuos sólidos | **Jose Ignacio** : "Desde mi punto de vista y mi punto de trabajo, definitivamente me inclinaria al tema de los costos de la aplicación. Si se ha hecho un buen análisis de los costos, creeme que vamos a estar tranquilos y lo unico sería que haya monitoreo y control del proyecto." |
 
