@@ -646,3 +646,115 @@ El commit realizado fue el siguiente:
 | Repository | Branch | Commit Ids | Commit Message | Commit Message Body | Committed on (Date) |
 |------------|--------|-----------|----------------|---------------------|---------------------|
 | WebApplication_Aquanetix | feature/subscriptions | 42adc249368682dfa96e49a810db94ddd1d99ad5 | feat(subscription): connect get subscription by id to mysql |  | 10/06/2026 |
+
+### 5.2.4. Sprint 4
+El cuarto sprint de nuestro proyecto se centró en la refactorización profunda y optimización de la Landing Page (Frontend). Tras las validaciones de los sprints anteriores, el equipo identificó la necesidad de elevar la calidad visual y la jerarquía de la información para proyectar una imagen corporativa alineada a los estándares de la industria tecnológica. Durante este periodo, se implementó un diseño asimétrico (Zig-Zag) para los segmentos objetivos, se integró soporte nativo de internacionalización (i18n) para los nuevos componentes, y se preparó la infraestructura del frontend para futuras integraciones multimedia, mejorando significativamente la captación de leads mediante llamados a la acción (CTAs) eficientes.
+
+#### 5.2.4.1. Sprint Planning 4.
+
+Para este sprint, la reunión de Sprint Planning nos permitió evaluar nuestra velocidad previa y definir las nuevas metas de diseño de la página de aterrizaje. En esta fase, el equipo seleccionó las historias de usuario orientadas a mejorar la experiencia de usuario (UX) y la interfaz de usuario (UI). El objetivo principal fue asegurar que la propuesta de valor comunique confianza a los clientes B2B (EPS y Gestoras de Residuos), estableciendo un plan de trabajo claro para la reestructuración del código CSS y HTML.
+
+| Campo / Sección | Detalle |
+| :--- | :--- |
+| Sprint # | Sprint 4 |
+| Date | [COMPLETAR FECHA, ej: 2026-07-05] |
+| Time | [COMPLETAR HORA, ej: 9:00 PM] |
+| Location | Google meet |
+| Prepared By | Castro Solorza, Nicolas Eduardo |
+| Attendees (to planning meeting) | Pinedo Sánchez, Sebastián Martín / Castro Solorza, Nicolás Eduardo / Cochachi Chagua, Sebastián Josué / Cabrera Novoa, Leonardo Moisés / Bojórquez Bustinza, Renzo Alejandro |
+| Sprint 4  Review Summary | Durante el Sprint 3 se consolidó la arquitectura del backend. En esta revisión, el equipo determinó que la "cara" del producto (Landing Page) necesitaba una actualización estética urgente para estar a la altura del software desarrollado, priorizando la inclusión de métricas de impacto y una mejor presentación visual de los segmentos de mercado. |
+| Sprint 4  Retrospective Summary | Como oportunidad de mejora, se evidenció que la reutilización de clases CSS antiguas estaba generando conflictos visuales. Se decidió aplicar metodologías de código limpio en el frontend, creando clases independientes y modulares para los nuevos componentes premium. |
+| Sprint 4 Goal | Nuestro enfoque se centra en rediseñar la Landing Page para que alcance estándares corporativos, implementando secciones expansivas, soporte bilingüe interactivo y llamados a la acción centralizados.<br>Creemos que esto incrementará el tiempo de retención del usuario en la web y la tasa de conversión hacia el formulario de contacto.<br>Esto será confirmado cuando la página se despliegue sin errores de carga de imágenes, el cambio de idioma responda en tiempo real, y los botones redirijan correctamente al modal de contacto. |
+| Sprint 4 Velocity | Para este Sprint 4, evaluando la capacidad actual del equipo para tareas de Frontend, se estableció un Velocity de [COMPLETAR NÚMERO] Story Points. |
+| Sum of Story Points | [COMPLETAR NÚMERO] |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+En esta sección se presenta la matriz de liderazgo y colaboración (LACX), donde se definen los roles de cada integrante enfocados en la actualización del Frontend de la Landing Page y la documentación respectiva.
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page (Frontend) | UX/UI Design | Documentation | Modeling |
+|------------------------------------|----------------|-------------|-------------|--------------|----------|
+| Bojórquez Bustinza, Renzo Alejandro | DeterminedSoul7 | C | C | C | L |
+| Cabrera Novoa, Leonardo Moisés | u202415820 | C | L | C | C |
+| Castro Solorza, Nicolás Eduardo | NicoCSE | C | C | L | C |
+| Cochachi Chagua, Sebastian Josue | sebastiancochachi02-cmd | L | C | C | C |
+| Pinedo Sanchez, Sebastián Martín | smp1107 | C | C | C | C |
+
+#### 5.2.4.3. Sprint Backlog 4.
+
+El objetivo del presente Sprint fue la refactorización visual de la Landing Page. Se delegaron tareas específicas para la implementación del banner de métricas, el rediseño de las tarjetas de soluciones (Zig-Zag pattern), la adaptación de los textos persuasivos (copywriting) y la actualización del script de internacionalización (`i18n.js`).
+
+<div align="center">
+  <img src="../assets/Jira/[COMPLETAR_NOMBRE_DE_TU_IMAGEN_JIRA_1].png">
+  <img src="../assets/Jira/[COMPLETAR_NOMBRE_DE_TU_IMAGEN_JIRA_2].png">
+</div>
+
+Enlace a la herramienta utilizada: [COMPLETAR ENLACE DE JIRA]
+
+A continuación, se detallan las User Stories priorizadas y las tareas asociadas:
+
+| US Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|------|------|--------|------------|------------|-------------------|-------------|--------|
+| US-35 | Visualización de información de producto | T-01 | Maquetación de Segmentos (Zig-Zag) | Desarrollar la estructura HTML/CSS para las nuevas tarjetas asimétricas de los segmentos de mercado. | 4 | Sebastián Cochachi | Done |
+| US-37 | Acceso a información de contacto o interés | T-02 | Integración de Modal de Contacto | Conectar los nuevos botones de segmentos para que activen el modal de contacto dinámico. | 2 | Sebastián Cochachi | Done |
+| US-42 | Navegación de contenido | T-03 | Actualización de diccionario i18n | Agregar las variables de texto de los nuevos segmentos y métricas al archivo i18n.js (EN/ES). | 3 | Nicolás Castro | Done |
+| US-36 | Visualización de funcionalidades del sistema | T-04 | Implementación de Banner de Métricas | Diseñar e implementar un banner con KPIs clave debajo de la sección Hero. | 2 | Leonardo Cabrera | Done |
+| US-35 | Visualización de información de producto | T-05 | Preparación de contenedor multimedia | Maquetar un placeholder responsivo (16:9) en la sección "Aquanetix Centralize" para futura inserción de video. | 2 | Sebastián Pinedo | Done |
+| US-35 | Visualización de información de producto | T-06 | Estabilización de Assets | Corregir rutas locales (Case-Sensitivity) e implementar enlaces CDN directos para evitar errores CORS en imágenes. | 1 | Renzo Bojórquez | Done |
+
+#### 5.2.4.4. Development Evidence for Sprint Review.
+
+| Repository | Branch | Commit Ids | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| Landing-Page-Aquanetix | main | [COMPLETAR HASH] | feat: add premium zig-zag segments and metrics banner | | [COMPLETAR FECHA] |
+| Landing-Page-Aquanetix | main | [COMPLETAR HASH] | fix: update image assets to direct CDN links and correct logo casing | | [COMPLETAR FECHA] |
+| Landing-Page-Aquanetix | main | [COMPLETAR HASH] | feat: implement video placeholder and connect segment buttons to contact modal | | [COMPLETAR FECHA] |
+| Landing-Page-Aquanetix | main | [COMPLETAR HASH] | chore: update i18n dictionary with new landing page content | | [COMPLETAR FECHA] |
+
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+
+En esta sección se presentan evidencias de la ejecución de la Landing Page actualizada durante el Sprint 4. Las siguientes capturas muestran el incremento en la calidad visual y la nueva estructura de información.
+
+**Figura 1. Banner de Métricas e Impacto Visual**
+<div align="center">
+  <img src="../assets/LandingPage/[COMPLETAR_NOMBRE_CAPTURA_METRICAS].png">
+</div>
+La figura muestra la nueva sección introducida debajo del Hero. Este banner de métricas comunica rápidamente los beneficios operativos del ecosistema Aquanetix (Monitoreo 24/7, reducción de costos y cumplimiento normativo), generando autoridad frente al usuario.
+
+**Figura 2. Diseño de Segmentos de Mercado (Patrón Zig-Zag)**
+<div align="center">
+  <img src="../assets/LandingPage/[COMPLETAR_NOMBRE_CAPTURA_SEGMENTOS].png">
+</div>
+Se evidencia la refactorización completa de los segmentos de mercado. Se empleó un patrón de diseño "Zig-Zag" que combina imágenes industriales mediante CDN estables, textos enfocados en los *pain points* del cliente y botones de acción (CTAs) que ejecutan dinámicamente el modal de contacto del sistema.
+
+**Figura 3. Plantilla Multimedia (Video Placeholder)**
+<div align="center">
+  <img src="../assets/LandingPage/[COMPLETAR_NOMBRE_CAPTURA_VIDEO].png">
+</div>
+La imagen detalla la actualización en la sección "Aquanetix Centralize", donde se configuró un contenedor de video responsivo (`iframe` 16:9). Esta implementación deja la infraestructura frontend lista para la integración del material audiovisual descriptivo del proyecto Open Source.
+
+**Figura 4. Internacionalización Dinámica (i18n)**
+<div align="center">
+  <img src="../assets/LandingPage/[COMPLETAR_NOMBRE_CAPTURA_I18N_EN].png">
+</div>
+Se demuestra la correcta integración del script `i18n.js`. Todos los nuevos componentes añadidos en este Sprint cambian de idioma (Español/Inglés) manipulando el DOM en tiempo real, sin requerir recargas de la página ni redirecciones.
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+Dado que el enfoque de este Sprint 4 fue exclusivamente la optimización del Frontend (UI/UX) de la Landing Page estática, no se realizaron modificaciones en los Web Services ni se añadieron nuevos endpoints al backend. Por consiguiente, la documentación OpenAPI (Swagger) detallada en el Sprint 3 se mantiene como la versión vigente y estable de la arquitectura de servicios.
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+El código correspondiente al rediseño del Sprint 4 fue integrado exitosamente en el repositorio `Landing-Page-Aquanetix`. El despliegue se actualizó de manera automatizada a través de **GitHub Pages**.
+
+1. Se resolvieron incidencias de sensibilidad a mayúsculas y minúsculas (*Case-Sensitivity*) en el renderizado de logotipos durante los despliegues de GitHub Actions.
+2. Se implementaron enlaces estables a través de Pexels CDN para las imágenes de los segmentos, previniendo los errores 404 (Not Found) provocados por bloqueos temporales de proveedores anteriores.
+3. La nueva versión optimizada se encuentra operativa en la URL de producción.
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+Para el desarrollo de este cuarto sprint, el equipo colaboró activamente en la reestructuración del repositorio del Frontend, gestionando los cambios en los archivos HTML, CSS y JS para evitar conflictos de estilos.
+
+<p align = "left">
+   <img src="../assets/insights/[COMPLETAR_NOMBRE_CAPTURA_INSIGHTS_SPRINT4].jpg">
+</p>
