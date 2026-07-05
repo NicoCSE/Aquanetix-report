@@ -212,10 +212,24 @@ A continuación, se detallan las User Stories priorizadas y las tareas asociadas
 | US-23 | Visualización del estado general del sistema | T-18 | Registrar severidad y ubicación de eventos | Registrar severidad y ubicación de eventos | 2 | Sebastián Pinedo | In-Process |
 | US-23 | Visualización del estado general del sistema | T-19 | Mostrar alertas en el módulo de monitoreo | Mostrar alertas en el módulo de monitoreo | 2 | Sebastián Pinedo | In-Process |
 | US-08 | Renovación automática de suscripción | T-20 | Implementar configuración de renovación automática | Implementar configuración de renovación automática | 2 | Leonardo Cabrera | In-Process |
-| US-08 | Renovación automática de suscripción | T-20 | Validar vencimiento de suscripciones activas | Validar vencimiento de suscripciones activas | 2 | Leonardo Cabrera | In-Process |
-| US-08 | Renovación automática de suscripción | T-20 | Actualizar vigencia después del pago exitoso | Actualizar vigencia después del pago exitoso | 2 | Leonardo Cabrera | In-Process |
-| US-08 | Renovación automática de suscripción | T-20 | Notificar errores en pagos rechazados | Notificar errores en pagos rechazados | 2 | Leonardo Cabrera | In-Process |
-| US-08 | Renovación automática de suscripción | T-20 | Implementar configuración de renovación automática | Implementar configuración de renovación automática | 2 | Leonardo Cabrera | In-Process |
+| US-08 | Renovación automática de suscripción | T-21 | Validar vencimiento de suscripciones activas | Validar vencimiento de suscripciones activas | 2 | Leonardo Cabrera | In-Process |
+| US-08 | Renovación automática de suscripción | T-22 | Actualizar vigencia después del pago exitoso | Actualizar vigencia después del pago exitoso | 2 | Leonardo Cabrera | In-Process |
+| US-08 | Renovación automática de suscripción | T-23 | Notificar errores en pagos rechazados | Notificar errores en pagos rechazados | 2 | Leonardo Cabrera | In-Process |
+| US-15 | Marcado de alertas atendidas | T-24 | Implementar cambio de estado en alertas | Implementar cambio de estado en alertas | 2 | Renzo Bojórquez | In-Process |
+| US-10 | Consulta de historial reciente de monitoreo | T-25 | Desarrollar consulta de historial por sensor o zona | Desarrollar consulta de historial por sensor o zona | 2 | Sebastián Pinedo | In-Process |
+| US-10 | Consulta de historial reciente de monitoreo | T-26 | Filtrar información según sensor seleccionado | Filtrar información según sensor seleccionado | 2 | Sebastián Pinedo | In-Process |
+| US-10 | Consulta de historial reciente de monitoreo | T-27 | Actualizar visualización del historial de monitoreo | Actualizar visualización del historial de monitoreo | 2 | Sebastián Pinedo | In-Process |
+| US-21 | Visualización gráfica de datos | T-28 | Mostrar datos monitoreados en gráficos | Mostrar datos monitoreados en gráficos | 2 | Nicolás Castro | In-Process |
+| US-21 | Visualización gráfica de datos | T-29 | Configurar representación visual de tendencias | Configurar representación visual de tendencias | 2 | Nicolás Castro | In-Process |
+| US-21 | Visualización gráfica de datos | T-30 | Realizar pruebas funcionales de gráficos | Realizar pruebas funcionales de gráficos | 2 | Nicolás Castro | In-Process |
+| US-32 | Análisis de tendencias de datos | T-30 | Implementar consulta de datos históricos | Implementar consulta de datos históricos | 2 | Nicolás Castro | In-Process |
+| US-32 | Análisis de tendencias de datos | T-30 | Detectar patrones de comportamiento en la red | Detectar patrones de comportamiento en la red | 2 | Nicolás Castro | In-Process |
+| US-32 | Análisis de tendencias de datos | T-30 | Mostrar variaciones históricas de parámetros | Mostrar variaciones históricas de parámetros | 2 | Nicolás Castro | In-Process |
+| US-32 | Análisis de tendencias de datos | T-30 | Integrar análisis de tendencias en el dashboard | Integrar análisis de tendencias en el dashboard | 2 | Nicolás Castro | In-Process |
+| US-33 | Reporte de incidencias | T-30 | Implementar consulta de incidencias registradas | Implementar consulta de incidencias registradas | 2 | Sebastián Cochachi | In-Process |
+| US-33 | Reporte de incidencias | T-30 | Mostrar historial de eventos críticos | Mostrar historial de eventos críticos | 2 | Sebastián Cochachi | In-Process |
+| US-33 | Reporte de incidencias | T-30 | Visualizar detalles de alertas e incidencias | Visualizar detalles de alertas e incidencias | 2 | Sebastián Cochachi | In-Process |
+| US-33 | Reporte de incidencias | T-30 | Validar información mostrada en reportes | Validar información mostrada en reportes | 2 | Sebastián Cochachi | In-Process |
 
 
 #### 5.2.2.4. Development Evidence for Sprint Review
