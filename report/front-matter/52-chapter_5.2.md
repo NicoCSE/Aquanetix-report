@@ -745,7 +745,7 @@ En esta sección se presentan evidencias de la ejecución de los componentes des
 **Figura 4. Registro de nuevo usuario**
 
 <div align="center">
-  <img src="../assets/web_applications/Web-App-IAM.png">
+  <img src="../assets/web_applications/WebApp_IAM.png">
 </div>
 
 
