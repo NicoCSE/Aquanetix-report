@@ -753,6 +753,7 @@ En esta sección se presentan evidencias de la ejecución de los componentes des
   <img src="../assets/web_applications/WebService_Final.png">
 </div>
 
+A continuación, se elaboró una explicación de forma audiovisual que detalla cada funcionalidad descrita en este tercer sprint: https://shorturl.at/4JOZv
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
