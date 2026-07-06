@@ -680,11 +680,11 @@ En esta sección se presenta la matriz de liderazgo y colaboración (LACX), dond
 
 | Team Member (Last Name, First Name) | GitHub Username | Landing Page | Web Application | Web Platform | Documentation |
 |------------------------------------|----------------|-------------|-------------|--------------|----------|
-| Bojórquez Bustinza, Renzo Alejandro | DeterminedSoul7 | C | [C/L] | [C/L] | C |
-| Cabrera Novoa, Leonardo Moisés | u202415820 | C | [C/L] | [C/L] | C |
-| Castro Solorza, Nicolás Eduardo | NicoCSE | C | [C/L] | [C/L] | L |
+| Bojórquez Bustinza, Renzo Alejandro | DeterminedSoul7 | C | C | L | C |
+| Cabrera Novoa, Leonardo Moisés | u202415820 | C | L | C | C |
+| Castro Solorza, Nicolás Eduardo | NicoCSE | C | C | C | L |
 | Cochachi Chagua, Sebastian Josue | sebastiancochachi02-cmd | L | C | C | C |
-| Pinedo Sanchez, Sebastián Martín | smp1107 | C | [C/L] | [C/L] | C |
+| Pinedo Sanchez, Sebastián Martín | smp1107 | C | C | L | C |
 
 #### 5.2.4.3. Sprint Backlog 4.
 
@@ -711,11 +711,11 @@ A continuación, se detallan las User Stories priorizadas y las tareas asociadas
 
 | Repository | Branch | Commit Ids | Commit Message | Commit Message Body | Committed on (Date) |
 |------------|--------|-----------|----------------|---------------------|---------------------|
-| Landing-Page-Aquanetix | main | [COMPLETAR HASH] | feat: add premium zig-zag segments and metrics banner | | [COMPLETAR FECHA] |
-| Landing-Page-Aquanetix | main | [COMPLETAR HASH] | fix: update image assets to direct CDN links and correct logo casing | | [COMPLETAR FECHA] |
-| Landing-Page-Aquanetix | main | [COMPLETAR HASH] | feat: implement video placeholder and connect segment buttons to contact modal | | [COMPLETAR FECHA] |
-| [COMPLETAR_REPO_WEB_APP] | [RAMA] | [COMPLETAR HASH] | [COMPLETAR COMMIT MESSAGE BACK/FRONT] | | [COMPLETAR FECHA] |
-| [COMPLETAR_REPO_PLATFORM]| [RAMA] | [COMPLETAR HASH] | [COMPLETAR COMMIT MESSAGE BACK/FRONT] | | [COMPLETAR FECHA] |
+| aquanetix_platform | feature/get-all-devices | 7c8bad665184224272dd8a07fbf80f5c6c129def | feat(get-all-devices): add get all devices query. |  | 16/06/2026 |
+| aquanetix_platform | feature/get-all-quality-analyses | 7be44256f1cdf815b9eca3611f5311138886f647 | feat: implement GetAllQualityAnalyses query and endpoint |  | 17/05/2026 |
+| aquanetix_platform | feature/get-all-alerts | 77026adc3d13ad0c6072a74fcf81d430e6155eca | feat(monitoring): implement GetAllAlerts query and endpoint |  | 17/06/2026 |
+| aquanetix_platform | feature/get-subscription-by-id | 29187e7120e7fe903b80af4d66975ce7624cabba | feat(subscription): implement create subscription and get subscription by id |  | 16/06/2026 |
+| aquanetix_platform | feature/delete-water-batch | 53f8ddc14c1a8325a3597c8b538ac46499378ef2 | feat(service-design): add DeleteWaterBatch endpoint and command for deleting water batch entries |  | 15/06/2026 |
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 
