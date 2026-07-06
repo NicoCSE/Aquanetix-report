@@ -161,4 +161,86 @@ Al revisar la página principal, comentó que el diseño es bastante claro y va 
 
 Al ingresar al panel de control (Dashboard), su evaluación fue positiva. Señaló que el uso de colores (verde, ámbar y rojo) para el estado de los sensores es muy útil porque permite identificar si hay algún problema de un solo vistazo. Como única sugerencia de mejora para el uso diario, recomendó agregar una opción que permita descargar el historial de las alertas en un formato sencillo como Excel o PDF para facilitar la elaboración de reportes. En general, concluyó que la herramienta es funcional e intuitiva.
 
-### 5.3.3 Evaluaciones según heurísticas
+### 5.3.3. Evaluaciones según heurísticas
+
+Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información e inclusive design de la experiencia propuesta en la plataforma Aquanetix[cite: 1]. 
+
+#### UX Heuristics & Principles Evaluation
+**Usability - Inclusive Design - Information Architecture**
+
+**CARRERA:** Ingeniería de Software
+**CURSO:** Aplicaciones Web
+**SECCIÓN:** 1AS10730
+**PROFESORES:** Todos
+**AUDITOR:** Equipo Aquanetix (Solvers Squad)
+**CLIENTE(S):** Diana Patricia Huamaní, Jorge Luis Castro, Liliana Sánchez, Fernando Bojórquez, Jose Ignacio Calle, Amid Alfonso Liñan.
+
+**SITE / APP A EVALUAR:**
+Aquanetix - Plataforma Web y Landing Page
+
+**TAREAS A EVALUAR:**
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas[cite: 1]:
+1. Exploración inicial y registro desde la Landing Page.
+2. Identificación de alertas críticas en el Dashboard.
+3. Búsqueda y registro de un nuevo dispositivo (sensor IoT).
+4. Revisión y gestión del historial de alertas.
+5. Verificación de uso y actualización del plan de suscripción.
+
+**ESCALA DE SEVERIDAD:**
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad[cite: 1]:
+
+| Nivel | Descripción |
+| :--- | :--- |
+| **1** | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para el siguiente release. |
+| **3** | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| **4** | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+**TABLA RESUMEN:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o)[cite: 1] |
+| :--- | :--- | :--- | :--- |
+| 1 | Las alertas críticas en color rojo no generan un estímulo visual lo suficientemente fuerte para captar la atención inmediata si el usuario no está mirando la tabla. | 3 | Usability: Visibilidad del estado del sistema |
+| 2 | La terminología en la pestaña de sensores utiliza la palabra "Dispositivos" y "Tipo", lo cual choca con el estándar de la industria hídrica. | 2 | Usability: Relación entre el sistema y el mundo real |
+| 3 | Las alertas en el historial muestran mensajes genéricos (ej. "El sensor superó el umbral permitido") sin mostrar el valor numérico exacto de la medición. | 3 | Information Architecture: Is it usable? |
+| 4 | No existe una funcionalidad nativa para exportar el historial de alertas a formatos externos (Excel/PDF) para auditorías. | 2 | Usability: Flexibilidad y eficiencia de uso |
+| 5 | Ausencia de un botón de acción rápida dentro de la alerta para notificar directamente al personal de campo (cuadrillas). | 3 | Usability: Prevención de errores / Eficiencia de uso |
+| 6 | Al alcanzar el límite de sensores en el plan actual, el flujo para actualizar el plan interrumpe la navegación del usuario. | 2 | Usability: Libertad y control del usuario |
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1: Alertas críticas no generan estímulo visual fuerte en todo el sistema.**
+*   **Severidad:** 3
+*   **Heurística violada:** Usabilidad - Visibilidad del estado del sistema
+*   **Problema:** Durante las entrevistas, los ingenieros señalaron que, aunque el código de colores semáforo es bueno, si ocurre una emergencia crítica (rojo) mientras navegan en otra pestaña, no hay un aviso contundente. Esto incrementa el tiempo de reacción ante derrames o anomalías químicas graves.
+*   **Recomendación:** Implementar un *banner* superior fijo o parpadeante de color rojo que persista en toda la aplicación cuando se active una alerta de criticidad alta, obligando al usuario a reconocerla.
+
+**PROBLEMA #2: Terminología alejada del estándar de la industria hídrica.**
+*   **Severidad:** 2
+*   **Heurística violada:** Usabilidad - Relación entre el sistema y el mundo real
+*   **Problema:** El ingeniero sanitario entrevistado notó que el sistema utiliza la pestaña "Dispositivos" y clasifica por "Tipo". En el mundo real del monitoreo hídrico, los ingenieros operan con "Puntos de Monitoreo" y miden "Parámetros". 
+*   **Recomendación:** Refactorizar las etiquetas del menú lateral y de las tablas de datos para que coincidan con el *Ubiquitous Language* técnico de las EPS, cambiando "Dispositivos" por "Puntos de Monitoreo" y "Tipo" por "Parámetro". Además, garantizar que siempre se visualice la unidad de medida (ej. NTU, mg/L).
+
+**PROBLEMA #3: Mensajes de alerta genéricos sin contexto numérico.**
+*   **Severidad:** 3
+*   **Heurística violada:** Arquitectura de la Información - Is it usable?
+*   **Problema:** Varios usuarios reportaron que al leer el historial, las notificaciones indican que "se superó el umbral", pero no proveen el valor exacto en el mismo mensaje. Esto obliga al usuario a realizar clics extra para entrar al detalle de la alerta y dimensionar el problema.
+*   **Recomendación:** Modificar la estructura de los *strings* de alerta en el backend para que interpolen automáticamente el valor de lectura y la unidad. Ej: "Alerta Crítica: El pH superó el límite de 8.5 (Lectura actual: 9.1 pH)".
+
+**PROBLEMA #4: Falta de opción para exportar datos del historial.**
+*   **Severidad:** 2
+*   **Heurística violada:** Usabilidad - Flexibilidad y eficiencia de uso
+*   **Problema:** Los usuarios encargados de elaborar reportes gerenciales indicaron que necesitan trasladar la data de las alertas a sus propios informes, y actualmente no hay forma de descargar el historial de forma masiva.
+*   **Recomendación:** Incorporar un botón de "Exportar a CSV/Excel" en el panel del historial de alertas para facilitar la labor de auditoría y reporte técnico.
+
+**PROBLEMA #5: Imposibilidad de notificar rápidamente a cuadrillas de campo desde la alerta.**
+*   **Severidad:** 3
+*   **Heurística violada:** Usabilidad - Eficiencia de uso
+*   **Problema:** Al detectar una falla, el operador visualiza el problema en Aquanetix pero tiene que salir de la plataforma y abrir WhatsApp u otro medio para enviar a una cuadrilla, generando fricción.
+*   **Recomendación:** Añadir un botón de acción rápida (CTA) tipo "Notificar a campo" dentro del modal de detalle de la alerta, integrándolo con un servicio de envío de correos o SMS automático.
+
+**PROBLEMA #6: Flujo de actualización de suscripción interrumpe la experiencia.**
+*   **Severidad:** 2
+*   **Heurística violada:** Usabilidad - Libertad y control del usuario
+*   **Problema:** Se identificó que, al llegar al límite de sensores del plan, si el usuario intenta agregar uno nuevo, el sistema no ofrece un camino fluido para hacer un *upgrade* rápido del plan y retornar a la tarea original.
+*   **Recomendación:** Añadir un botón de "Actualizar Plan" (Upgrade) dinámico cuando la barra de progreso de "Plan Usage" alcance el 100%, abriendo un modal que permita el pago sin perder el contexto de los dispositivos activos.
