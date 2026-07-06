@@ -749,19 +749,12 @@ En esta sección se presentan evidencias de la ejecución de los componentes des
 </div>
 
 
-**Avances en Web Application / Web Platform:**
+**Figura 5. Endpoints con autenticación**
 
-**Figura 4. [COMPLETAR: Título de la funcionalidad backend/frontend de tus compañeros]**
 <div align="center">
-  <img src="../assets/web_applications/[COMPLETAR_CAPTURA_WEB_APP_1].png">
+  <img src="../assets/web_applications/WebService_Final.png">
 </div>
-[COMPLETAR: Breve descripción de lo que se ve en la captura de la Web Application o del endpoint ejecutado].
 
-**Figura 5. [COMPLETAR: Título de otra funcionalidad]**
-<div align="center">
-  <img src="../assets/web_applications/[COMPLETAR_CAPTURA_WEB_APP_2].png">
-</div>
-[COMPLETAR: Breve descripción de lo que se ve en la captura].
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
