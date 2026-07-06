@@ -772,9 +772,12 @@ Durante este Sprint, además de las mejoras en el Frontend de la Landing Page, e
 
 El despliegue de los componentes del Sprint 4 se realizó en las siguientes plataformas:
 
-1. **Landing Page (Frontend):** Desplegada automáticamente a través de GitHub Pages con los nuevos assets gráficos e internacionalización, resolviendo configuraciones de CORS e imágenes.
-2. **Web Application:** [COMPLETAR: Describir si hubo un nuevo despliegue en Firebase Hosting o cambios relevantes].
-3. **Web Platform (Backend):** [COMPLETAR: Describir si el backend en Render o la base de datos en Aiven tuvo actualizaciones de despliegue en este sprint].
+| Componente | Proveedor | Tecnología | URL |
+|---|---|---|---|
+| Web Services (Backend) | Render | Docker · ASP.NET Core 10 | https://aquanetix-platform.onrender.com/swagger |
+| Web Application (Frontend) | Firebase Hosting | Vue 3 · Vite | https://shorturl.at/n8nN7 |
+| Base de datos | Aiven | MySQL 8 | (privada, accedida vía connection string) |
+| Landing Page | GitHub Pages | GitHub Pages | https://webwarriors-aquanetix.github.io/Landing-Page-Aquanetix/ |
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
