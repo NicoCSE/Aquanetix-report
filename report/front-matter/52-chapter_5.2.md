@@ -92,7 +92,7 @@ Las siguientes capturas muestran la interacción del usuario con las diferentes 
 **Figura 1. Sección principal de la landing page**
 
 <div align="center">
-  <img src="../assets/LandingPage/Landing1.png">
+  <img src="../assets/LandingPage/Landing1.jpeg">
 </div>
 La figura muestra la sección principal de la landing page, donde se presenta la propuesta de valor del sistema Aquanetix junto con un llamado a la acción dirigido al usuario.
 
@@ -100,7 +100,7 @@ La figura muestra la sección principal de la landing page, donde se presenta la
 **Figura 2. Sección informativa de la landing page**
 
 <div align="center">
-  <img src="../assets/LandingPage/Landing2.png">
+  <img src="../assets/LandingPage/Landing2.jpeg">
 </div>
 
 En esta sección se describe el problema abordado y la solución propuesta por el sistema, permitiendo al usuario comprender el propósito y beneficios del servicio.
@@ -108,7 +108,7 @@ En esta sección se describe el problema abordado y la solución propuesta por e
 **Figura 3. Sección de funcionalidades**
 
 <div align="center">
-  <img src="../assets/LandingPage/Landing3.png">
+  <img src="../assets/LandingPage/Landing3.jpeg">
 </div>
 
 La figura muestra las principales funcionalidades del sistema, destacando las capacidades de monitoreo, gestión de alertas y análisis de datos.
@@ -116,10 +116,12 @@ La figura muestra las principales funcionalidades del sistema, destacando las ca
 **Figura 4. Sección final y llamado a la acción**
 
 <div align="center">
-  <img src="../assets/LandingPage/Landing4.png">
+  <img src="../assets/LandingPage/Landing4.jpeg">
 </div>
 
 En esta sección final se incluye un llamado a la acción que invita al usuario a interactuar con el sistema, junto con información adicional relevante.
+
+Tambien se procedió a grabar un video demostrando a detalle la funcionalidad de la Landing Page de nuestra aplicación: https://shorturl.at/L8IDq
 
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review
 
@@ -287,6 +289,8 @@ La figura muestra el módulo de alertas de la aplicación web, en el cual el usu
 </div>
 
 La figura presenta la sección de suscripción de la plataforma, donde el usuario puede consultar la información de su plan actual, visualizar el uso de recursos disponibles y acceder a datos de facturación. Asimismo, se incluyen opciones para cambiar o cancelar la suscripción según las necesidades del usuario.
+
+A continuación, se elaboró una explicación de forma audiovisual que detalla cada funcionalidad descrita en este segundo sprint: https://shorturl.at/XQd4J
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -532,7 +536,9 @@ En esta imagen se observa el resultado de subir la base de datos de nuestra Web 
 <div align="center">
   <img src="../assets/endpoints/render_backend.jpeg">
 </div>
-En esta imagen se observa el resultado de desplegar el backend de nuestra web application en Render. Esto fue fundamental debido a que se automatiza la configuración de servidores y el despliegue continuo de nuestro código.
+En esta imagen se observa el resultado de desplegar el backend de nuestra web application en Render. Esto fue fundamental debido a que se automatiza la configuración de servidores y el despliegue continuo de nuestro código.ç
+
+A continuación, se elaboró una explicación de forma audiovisual que detalla cada funcionalidad descrita en este tercer sprint: https://shorturl.at/hiaYL
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 Durante el Sprint 3, el equipo consolidó la documentación de los Web Services de la plataforma Aquanetix utilizando OpenAPI (Swagger), generada automáticamente a partir de las anotaciones `SwaggerTag`, `SwaggerOperation` y `SwaggerResponse` incorporadas en cada controlador de la API. El alcance de este Sprint comprendió la documentación de los endpoints de los cinco Bounded Contexts del backend (ServiceDesign, Monitoring, Devices, Dashboard y Subscription), así como la incorporación del nuevo endpoint de creación de dispositivos (`POST /api/v1/devices`) y la documentación de los sub-recursos de configuración de umbrales (thresholds). La documentación se encuentra desplegada y accesible públicamente a través de la interfaz Swagger UI del servicio desplegado en Render.
