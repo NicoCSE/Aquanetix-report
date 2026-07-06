@@ -163,7 +163,7 @@ Al ingresar al panel de control (Dashboard), su evaluación fue positiva. Señal
 
 ### 5.3.3. Evaluaciones según heurísticas
 
-Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información e inclusive design de la experiencia propuesta en la plataforma Aquanetix[cite: 1]. 
+Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información e inclusive design de la experiencia propuesta en la plataforma Aquanetix. 
 
 #### UX Heuristics & Principles Evaluation
 **Usability - Inclusive Design - Information Architecture**
@@ -179,7 +179,7 @@ Esta sección contiene el proceso de evaluación de las sesiones de validación 
 Aquanetix - Plataforma Web y Landing Page
 
 **TAREAS A EVALUAR:**
-El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas[cite: 1]:
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 1. Exploración inicial y registro desde la Landing Page.
 2. Identificación de alertas críticas en el Dashboard.
 3. Búsqueda y registro de un nuevo dispositivo (sensor IoT).
@@ -187,7 +187,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 5. Verificación de uso y actualización del plan de suscripción.
 
 **ESCALA DE SEVERIDAD:**
-Los errores serán puntuados tomando en cuenta la siguiente escala de severidad[cite: 1]:
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 | Nivel | Descripción |
 | :--- | :--- |
@@ -198,7 +198,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad[
 
 **TABLA RESUMEN:**
 
-| # | Problema | Escala de severidad | Heurística/Principio violada(o)[cite: 1] |
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
 | :--- | :--- | :--- | :--- |
 | 1 | Las alertas críticas en color rojo no generan un estímulo visual lo suficientemente fuerte para captar la atención inmediata si el usuario no está mirando la tabla. | 3 | Usability: Visibilidad del estado del sistema |
 | 2 | La terminología en la pestaña de sensores utiliza la palabra "Dispositivos" y "Tipo", lo cual choca con el estándar de la industria hídrica. | 2 | Usability: Relación entre el sistema y el mundo real |
