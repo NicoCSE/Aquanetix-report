@@ -668,7 +668,7 @@ Para este sprint, la reunión de Sprint Planning nos permitió evaluar nuestra v
 | Location | Google meet |
 | Prepared By | Castro Solorza, Nicolas Eduardo |
 | Attendees (to planning meeting) | Pinedo Sánchez, Sebastián Martín / Castro Solorza, Nicolás Eduardo / Cochachi Chagua, Sebastián Josué / Cabrera Novoa, Leonardo Moisés / Bojórquez Bustinza, Renzo Alejandro |
-| Sprint 4 Review Summary | [COMPLETAR: Breve resumen de lo que el Product Owner opinó sobre el Sprint 3 y por qué decidieron hacer estas nuevas tareas en el Sprint 4] |
+| Sprint 4 Review Summary | En el Sprint 3 se habían notado muchas observaciones pendientes a levantar, relacionadas con la Landing Page, Aplicación Frontend y Aplicación Backend, motivo por el cual se incorporaron muchas tareas a este Sprint 4. A ello se le debió sumar la lógica de Identity and Access Management, para registrar usuarios y que ellos puedan iniciar sesión, para así cumplir con los estándares de seguridad de la aplicación. |
 | Sprint 4 Retrospective Summary | [COMPLETAR: Breve resumen de qué cosas decidieron mejorar como equipo para este Sprint 4] |
 | Sprint 4 Goal | [COMPLETAR: El objetivo general del equipo para este sprint. Ej: "Nuestro enfoque se centra en rediseñar la Landing Page para generar mayor confianza y habilitar los nuevos endpoints de X módulo..."] |
 | Sprint 4 Velocity | [COMPLETAR NÚMERO] Story Points. |
