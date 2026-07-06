@@ -737,11 +737,12 @@ En esta sección se presentan evidencias de la ejecución de los componentes des
 
 En esta sección se describe el problema abordado y la solución propuesta por el sistema, permitiendo al usuario comprender el propósito y beneficios del servicio.
 
-**Figura 3. Internacionalización Dinámica y Multimedia**
+**Figura 3. Dashboard principal**
+
 <div align="center">
-  <img src="../assets/LandingPage/[COMPLETAR_NOMBRE_CAPTURA_I18N_EN].png">
+  <img src="../assets/web_applications/Web-App-Cap1.jpg">
 </div>
-Se demuestra la correcta integración del script `i18n.js` traduciendo la página en tiempo real, junto con el *placeholder* de video preparado en la sección "Aquanetix Centralize" para futuras inserciones multimedia.
+
 
 **Avances en Web Application / Web Platform:**
 
