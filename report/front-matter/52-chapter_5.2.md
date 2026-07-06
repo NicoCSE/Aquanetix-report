@@ -701,13 +701,11 @@ A continuación, se detallan las User Stories priorizadas y las tareas asociadas
 
 | US Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 |------|------|--------|------------|------------|-------------------|-------------|--------|
-| US-35 | Visualización de información de producto | T-01 | Maquetación de Segmentos (Zig-Zag) | Desarrollar la estructura HTML/CSS para las nuevas tarjetas asimétricas de los segmentos de mercado en la Landing Page. | 4 | Sebastián Cochachi | Done |
-| US-37 | Acceso a información de contacto | T-02 | Integración de Modal de Contacto | Conectar los nuevos botones de segmentos en la Landing Page para que activen el modal de contacto dinámico. | 2 | Sebastián Cochachi | Done |
-| US-42 | Navegación de contenido | T-03 | Actualización de diccionario i18n | Agregar las variables de texto de los nuevos segmentos y métricas al archivo i18n.js (EN/ES). | 3 | Sebastián Cochachi | Done |
-| US-[X] | [COMPLETAR US DE WEB APP/PLATFORM] | T-04 | [COMPLETAR TITULO TAREA] | [COMPLETAR DESCRIPCION TAREA BACKEND/FRONTEND] | [X] | [NOMBRE COMPAÑERO] | Done |
-| US-[X] | [COMPLETAR US DE WEB APP/PLATFORM] | T-05 | [COMPLETAR TITULO TAREA] | [COMPLETAR DESCRIPCION TAREA BACKEND/FRONTEND] | [X] | [NOMBRE COMPAÑERO] | Done |
-| US-[X] | [COMPLETAR US DE WEB APP/PLATFORM] | T-06 | [COMPLETAR TITULO TAREA] | [COMPLETAR DESCRIPCION TAREA BACKEND/FRONTEND] | [X] | [NOMBRE COMPAÑERO] | Done |
-| US-[X] | [COMPLETAR US DE WEB APP/PLATFORM] | T-07 | [COMPLETAR TITULO TAREA] | [COMPLETAR DESCRIPCION TAREA BACKEND/FRONTEND] | [X] | [NOMBRE COMPAÑERO] | In-Process |
+| US-46 | Registro de usuarios | T-01 | Registro de usuarios | Registro de usuarios | 1 | Nicolás Castro | Done |
+| US-47 | Inicio de sesión | T-02 | Inicio de sesión | Inicio de sesión | 1 | Leonardo Cabrera | Done |
+| US-48 | Cierre de sesión | T-03 | Cierre de sesión | Cierre de sesión | 1 | Sebastián Cochachi | Done |
+| US-49 | Gestión de perfil de usuario | T-04 | Gestión de perfil de usuario | Gestión de perfil de usuario | 1 | Renzo Bojórquez | Done |
+| US-50 | Selección de plan de suscripción | T-05 | Selección de plan de suscripción | Selección de plan de suscripción | 1 | Sebastián Pinedo | Done |
 
 #### 5.2.4.4. Development Evidence for Sprint Review.
 
