@@ -660,19 +660,19 @@ El cuarto sprint de nuestro proyecto se caracterizó por un trabajo en paralelo 
 
 Para este sprint, la reunión de Sprint Planning nos permitió evaluar nuestra velocidad previa y definir las nuevas metas. En esta fase, el equipo seleccionó las historias de usuario orientadas a mejorar la experiencia de usuario (UX/UI) de la página de aterrizaje y a extender las funcionalidades del sistema central. 
 
-| Campo / Sección | Detalle |
+| Campo / Sección | Detalles |
 | :--- | :--- |
 | Sprint # | Sprint 4 |
-| Date | [COMPLETAR FECHA, ej: 2026-07-05] |
-| Time | [COMPLETAR HORA, ej: 9:00 PM] |
+| Date | 2026-07-01 ] |
+| Time | 9:00 PM |
 | Location | Google meet |
 | Prepared By | Castro Solorza, Nicolas Eduardo |
 | Attendees (to planning meeting) | Pinedo Sánchez, Sebastián Martín / Castro Solorza, Nicolás Eduardo / Cochachi Chagua, Sebastián Josué / Cabrera Novoa, Leonardo Moisés / Bojórquez Bustinza, Renzo Alejandro |
 | Sprint 4 Review Summary | En el Sprint 3 se habían notado muchas observaciones pendientes a levantar, relacionadas con la Landing Page, Aplicación Frontend y Aplicación Backend, motivo por el cual se incorporaron muchas tareas a este Sprint 4. A ello se le debió sumar la lógica de Identity and Access Management, para registrar usuarios y que ellos puedan iniciar sesión, para así cumplir con los estándares de seguridad de la aplicación. |
 | Sprint 4 Retrospective Summary | Se levantaron las observaciones identificadas en el sprint anterior, y se añadió la lógica de Identity and Access Management |
-| Sprint 4 Goal | [COMPLETAR: El objetivo general del equipo para este sprint. Ej: "Nuestro enfoque se centra en rediseñar la Landing Page para generar mayor confianza y habilitar los nuevos endpoints de X módulo..."] |
-| Sprint 4 Velocity | [COMPLETAR NÚMERO] Story Points. |
-| Sum of Story Points | [COMPLETAR NÚMERO] |
+| Sprint 4 Goal | Nuestro enfoque está en ofrecer información detallada y real para los visitantes, facilidad y seguridad para el manejo de almacenamiento para las empresas suscritas a la plataforma, y aumentar las posibilidades para nuevos features para los desarrolladores.<br>Creemos que esto proporcionará una Landing Page atractiva para los visitantes, una aplicación de monitoreo estable y segura para las empresas, y un entorno de desarrollo estable para los desarrolladores.<br>Esto se confirmará cuando los visitantes puedan ingresar a la plataforma directamente desde la Landing Page, las empresas puedan registrarse y ver los datos logisticos, obtenidos dinámicamente de la base de datos, sin depender de datos codificados; y cuando los desarrolladores puedan implementar nuevos features desde los endpoints existentes mediante una autenticación de forma segura. |
+| Sprint 4 Velocity | Para este Sprint 4, evaluando el desempeño previo, capacidad actual del equipo, y circunstancias actuales de tiempo, se establecio un Velocity de 87 Story Points. |
+| Sum of Story Points | 87 |
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
 
@@ -723,19 +723,19 @@ A continuación, se detallan las User Stories priorizadas y las tareas asociadas
 
 En esta sección se presentan evidencias de la ejecución de los componentes desarrollados durante el Sprint 4.
 
-**Avances en la Landing Page:**
+**Figura 1. Sección principal de la landing page**
 
-**Figura 1. Banner de Métricas e Impacto Visual**
 <div align="center">
-  <img src="../assets/LandingPage/[COMPLETAR_NOMBRE_CAPTURA_METRICAS].png">
+  <img src="../assets/LandingPage/Landing1.jpeg">
 </div>
-La figura muestra la nueva sección introducida debajo del Hero. Este banner de métricas comunica rápidamente los beneficios operativos del ecosistema Aquanetix (Monitoreo 24/7, reducción de costos y cumplimiento normativo).
 
-**Figura 2. Diseño de Segmentos de Mercado (Patrón Zig-Zag)**
+**Figura 2. Sección informativa de la landing page**
+
 <div align="center">
-  <img src="../assets/LandingPage/[COMPLETAR_NOMBRE_CAPTURA_SEGMENTOS].png">
+  <img src="../assets/LandingPage/Landing2.jpeg">
 </div>
-Se evidencia la refactorización completa de los segmentos de mercado. Se empleó un patrón de diseño "Zig-Zag" que combina imágenes industriales estables, textos enfocados en los pain points del cliente y botones de acción conectados al modal de contacto.
+
+En esta sección se describe el problema abordado y la solución propuesta por el sistema, permitiendo al usuario comprender el propósito y beneficios del servicio.
 
 **Figura 3. Internacionalización Dinámica y Multimedia**
 <div align="center">
