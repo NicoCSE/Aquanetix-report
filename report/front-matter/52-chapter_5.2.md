@@ -691,8 +691,8 @@ En esta sección se presenta la matriz de liderazgo y colaboración (LACX), dond
 El objetivo del presente Sprint abarcó tanto la refactorización visual de la Landing Page como la evolución del backend/frontend de la aplicación. 
 
 <div align="center">
-  <img src="../assets/Jira/[COMPLETAR_NOMBRE_DE_TU_IMAGEN_JIRA_1].png">
-  <img src="../assets/Jira/[COMPLETAR_NOMBRE_DE_TU_IMAGEN_JIRA_2].png">
+  <img src="../assets/Jira/jira_sprint_4.png">
+  <img src="../assets/Jira/jira_sprint_4_2.png">
 </div>
 
 Enlace a la herramienta utilizada: https://shorturl.at/xs1Pv
