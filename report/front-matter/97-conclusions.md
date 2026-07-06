@@ -9,6 +9,13 @@
 - El desarrollo de la aplicación Backend centralizó con éxito la lógica de negocio y el procesamiento de datos provenientes del monitoreo. La correcta configuración de la persistencia de datos y la seguridad en la capa de base de datos garantizan la integridad de la información sensible del sistema.
 - El ecosistema completo de Aquanetix demuestra que la sinergia entre una estrategia de atracción (Landing Page), una interfaz de usuario clara (Frontend) y una infraestructura sólida (Backend/Cloud) es capaz de transformar un problema ambiental crítico en una solución tecnológica viable, automatizada y escalable para la gestión del agua.
 
+## Recomendaciones
+- Continuar ampliando las funcionalidades de la plataforma incorporando nuevos módulos que permitan fortalecer el monitoreo, análisis y gestión de los recursos hídricos.
+- Implementar mecanismos de monitoreo y pruebas continuas que permitan garantizar la disponibilidad, seguridad y rendimiento del sistema en escenarios con un mayor número de usuarios y dispositivos.
+- Integrar nuevas fuentes de información y sensores IoT para incrementar la precisión del monitoreo y mejorar la capacidad de respuesta ante posibles incidentes relacionados con la calidad o distribución del agua.
+- Realizar evaluaciones periódicas de la experiencia de usuario (UX) con usuarios reales para identificar oportunidades de mejora y optimizar la usabilidad de la plataforma.
+- Continuar fortaleciendo la arquitectura del sistema mediante buenas prácticas de desarrollo, documentación y mantenimiento, facilitando futuras actualizaciones y la incorporación de nuevos integrantes al proyecto.
+
 ## Video About-the-Team
 
 ### Resumen del video
