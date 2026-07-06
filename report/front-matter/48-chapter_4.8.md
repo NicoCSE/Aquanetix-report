@@ -1,57 +1,57 @@
 ## 4.8. Database Design
 
-En esta sección se presenta el diseño de la base de datos de Aquanetix, el cual resulta vital para establecer la base estructural necesaria que resguardará grandes volúmenes de telemetría y registros de consumo hídrico de manera segura[cite: 1]. Se resumen a continuación las principales características consideradas en los diagramas: el modelado relacional sigue un enfoque de normalización para evitar redundancias, asegurando la integridad de los datos mediante el uso estricto de restricciones (*constraints*) como llaves primarias y foráneas. Esta organización estructurada y segmentada por *Bounded Contexts* garantizará una consulta veloz y eficiente para los reportes ambientales que requieran los auditores o ingenieros del sistema.
+El diseño de la base de datos resulta vital en la construcción de Aquanetix[cite: 1]. Establece la base estructural necesaria para resguardar grandes volúmenes de telemetría, así como registros logísticos de consumo hídrico con máxima seguridad[cite: 1]. Se aplica un método riguroso al definir las entidades, llaves foráneas, sumado a reglas de integridad relacional enfocadas en evitar redundancias[cite: 1]. Dicha organización estructurada mediante *Bounded Contexts* garantizará consultas veloces para los reportes ambientales exigidos por los auditores[cite: 1].
 
 ### 4.8.1. Database Diagrams
 
-A continuación, se presenta y explica el diagrama de base de datos relacional para cada *Bounded Context*, incluyendo los objetos que permitirán la persistencia de la información, sus tablas, columnas, restricciones (*constraints*) y las relaciones evidenciadas[cite: 1].
+A continuación, se detalla el esquema relacional para cada *Bounded Context*[cite: 1]. Se especifican las tablas principales, sus columnas, las restricciones aplicadas, evidenciando también las relaciones entre los distintos objetos para la correcta persistencia de la información[cite: 1].
 
 #### 1. Bounded Context: Subscription
-Este diagrama define la persistencia de los planes comerciales y las suscripciones de los clientes.
+Este diagrama define la persistencia de los planes comerciales, sumado a las suscripciones activas de los clientes.
 
 <div align="center"><img src="../assets/c4_diagrams/Diagrama_BD_Subscription.png" width ="100%"></div>
 
 **Explicación del esquema:**
-*   **Tablas:** `Subscriptions` y `PlanDefinitions`.
-*   **Columnas principales:** `Id`, `StartDate`, `EndDate` y `IsActive` en suscripciones; `Code`, `Name`, `Price` y `MaxDevices` en los planes.
-*   **Constraints y Relaciones:** La tabla `Subscriptions` posee una llave primaria (`PK`) en su campo `Id`. Se evidencia una relación de uno a muchos mediante la llave foránea (`FK`) `PlanId` en la tabla `Subscriptions`, la cual referencia a la llave primaria de la tabla `PlanDefinitions`. Esto asegura que una suscripción no pueda existir sin estar atada a un plan válido en el catálogo.
+*   **Tablas:** `subscription`, `plan_definition`, `user_account`, `plan_catalog`.
+*   **Columnas principales:** `start_date`, `end_date`, `is_active` en la suscripción; `price`, `duration_in_months`, `max_devices` en la definición del plan.
+*   **Constraints o Relaciones:** Cada tabla posee su identificador `id` configurado como llave primaria (`PK`). La entidad `subscription` utiliza llaves foráneas (`FK`) como `user_account_id` para relacionarse con la cuenta del usuario, junto con `plan_definition_id` para vincularse al plan adquirido. Esto establece relaciones de uno a muchos, asegurando la integridad referencial de los servicios contratados.
 
 #### 2. Bounded Context: Devices
-Este diagrama estructura el almacenamiento del inventario de sensores IoT y sus configuraciones de umbrales.
+Este diagrama estructura el almacenamiento del inventario IoT, incluyendo sus configuraciones operativas.
 
 <div align="center"><img src="../assets/c4_diagrams/Diagrama_BD_Devices.png" width ="100%"></div>
 
 **Explicación del esquema:**
-*   **Tablas:** `Devices` y `ThresholdConfigurations`.
-*   **Columnas principales:** `Id`, `SerialNumber`, `DeviceType`, `CurrentValue` y `Location` para los dispositivos; `MinValue`, `MaxValue` y `AlertLevel` para los umbrales.
-*   **Constraints y Relaciones:** Ambas tablas definen su `Id` como llave primaria (`PK`). La tabla `ThresholdConfigurations` incluye una llave foránea (`FK`) llamada `SensorId` que apunta a `Devices`. Esto ilustra una relación de uno a muchos, permitiendo que un solo dispositivo físico posea múltiples configuraciones de umbrales activos sin violar la integridad referencial.
+*   **Tablas:** `device`, `threshold_configuration`, `device_owner`, `device_destination`, además de catálogos de estado o tipo.
+*   **Columnas principales:** `serial_number`, `current_value`, `location` para los dispositivos; `min_value`, `max_value`, `unit` para los umbrales.
+*   **Constraints o Relaciones:** Se definen llaves primarias (`PK`) en todas las entidades. La tabla `device` centraliza múltiples llaves foráneas (`FK`), referenciando al propietario (`owner_id`), al destino logístico (`destination_id`), así como a sus respectivos catálogos. Por otro lado, la tabla `threshold_configuration` se relaciona con el sensor mediante la FK `device_id`, permitiendo configurar múltiples límites de alerta para un mismo equipo físico.
 
 #### 3. Bounded Context: Monitoring
-Este diagrama detalla la persistencia del motor de alertas y la gestión de órdenes de mantenimiento operativo.
+Este diagrama detalla la persistencia del motor de alertas, conectando las incidencias con las labores de campo.
 
 <div align="center"><img src="../assets/c4_diagrams/Diagrama_BD_Monitoring.png" width ="100%"></div>
 
 **Explicación del esquema:**
-*   **Tablas:** `Alerts`, `WorkOrders` y `MaintenanceFindings`.
-*   **Columnas principales:** `Id`, `Severity`, `Message` en alertas; `WorkOrderId` (tipo `Guid`), `ScheduledDate` y `Status` en órdenes de trabajo; `Description` y `RequiresFollowUp` en hallazgos.
-*   **Constraints y Relaciones:** Cada tabla cuenta con su respectiva llave primaria (`PK`). Existe una relación de uno a muchos entre `WorkOrders` y `MaintenanceFindings`, materializada a través de una llave foránea (`FK`) en la tabla de hallazgos que referencia al identificador único de la orden de trabajo, garantizando la trazabilidad de qué problemas se encontraron durante qué mantenimiento específico.
+*   **Tablas:** `alert`, `work_order`, `technician`, `maintenance_finding`, `work_order_resolution`, apoyadas por diversos catálogos.
+*   **Columnas principales:** `message`, `value`, `threshold` en alertas; `scheduled_date` en órdenes de trabajo; `description`, `requires_follow_up` en los hallazgos.
+*   **Constraints o Relaciones:** La entidad `alert` emplea llaves foráneas para asociarse al dispositivo de origen (`device_id`), sumado a los catálogos de severidad. La tabla `work_order` se vincula al técnico asignado mediante `assigned_technician_id`. Asimismo, los reportes de mantenimiento (`maintenance_finding`) referencian a la orden de trabajo original usando `work_order_id`, garantizando la trazabilidad completa en las operaciones correctivas.
 
 #### 4. Bounded Context: Dashboard
-Este diagrama modela la base para la analítica de la calidad del agua.
+Este esquema modela la base relacional para la analítica avanzada de contaminación hídrica.
 
 <div align="center"><img src="../assets/c4_diagrams/Diagrama_BD_Dashboard.png" width ="100%"></div>
 
 **Explicación del esquema:**
-*   **Tablas:** `QualityAnalyses`.
-*   **Columnas principales:** `Id`, `SensorSourceId`, `DetectedParameters`, `AnomalyStatus`, `SeverityScore` y `HasContaminationPeakPrediction`.
-*   **Constraints y Relaciones:** La tabla está definida por su llave primaria (`PK`) `Id`. Al ser un contexto enfocado en la consolidación analítica, actúa principalmente persistiendo los registros históricos de evaluaciones de contaminación mediante tipos de datos específicos (como `double` para el score de severidad), lo que facilita su lectura rápida para los dashboards gerenciales.
+*   **Tablas:** `quality_analysis`, `sensor_source`, `quality_analysis_detected_parameter`, junto con catálogos de anomalías.
+*   **Columnas principales:** `severity_score`, `has_contamination_peak_prediction` en los análisis de calidad.
+*   **Constraints o Relaciones:** Se asegura la normalización resolviendo la relación de muchos a muchos mediante la tabla intermedia `quality_analysis_detected_parameter`. Esta entidad une el análisis central (`quality_analysis_id`) con los tipos de anomalía específicos (`anomaly_type_id`) usando llaves foráneas compuestas. Esto facilita las consultas complejas requeridas por los paneles gerenciales.
 
 #### 5. Bounded Context: Service Design
-Este diagrama traza el movimiento logístico del agua recuperada y tratada hacia sus destinos operativos.
+Este diagrama traza el ciclo de vida logístico del agua recuperada hacia sus destinos finales.
 
 <div align="center"><img src="../assets/c4_diagrams/Diagrama_BD_ServiceDesign.png" width ="100%"></div>
 
 **Explicación del esquema:**
-*   **Tablas:** `WaterBatches` y `Destinations`.
-*   **Columnas principales:** `Id`, `BatchNumber`, `Volume` y `TreatmentDate` para los lotes; `Id`, `Name`, `Location` y `Capacity` para los destinos.
-*   **Constraints y Relaciones:** Se definen llaves primarias (`PK`) en ambas tablas. La trazabilidad logística se asegura mediante una llave foránea (`FK`) `DestinationId` en la tabla `WaterBatches` que apunta a `Destinations`. Esto crea una relación de uno a muchos que refleja cómo un único punto de destino puede recibir múltiples lotes de agua reutilizable a lo largo del tiempo.
+*   **Tablas:** `water_batch`, `water_batch_history`, `water_batch_treatment`, `destination`, `device`, sumado a sus respectivos catálogos de procesos.
+*   **Columnas principales:** `batch_number`, `volume`, `treatment_date` en los lotes; `capacity`, `location` en los destinos.
+*   **Constraints o Relaciones:** La entidad principal `water_batch` contiene la llave foránea `destination_id` para referenciar el punto de entrega logístico. Para registrar auditorías ambientales, la tabla `water_batch_history` guarda todos los cambios de estado del lote. Además, la tabla `water_batch_treatment` documenta el proceso químico aplicado, conectando el volumen de agua con el dispositivo encargado del tratamiento mediante las FK correspondientes.
