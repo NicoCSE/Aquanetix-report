@@ -765,14 +765,7 @@ En esta sección se presentan evidencias de la ejecución de los componentes des
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
-Durante este Sprint, además de las mejoras en el Frontend de la Landing Page, el equipo actualizó la documentación de los Web Services de la plataforma Aquanetix utilizando OpenAPI (Swagger). A continuación se presentan los nuevos endpoints integrados/modificados:
-
-| Bounded Context | Acción | Verbo HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Request | Response |
-|---|---|---|---|---|---|---|
-| [COMPLETAR] | [COMPLETAR] | [GET/POST/PUT] | `/api/v1/[rutas]` | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] |
-| [COMPLETAR] | [COMPLETAR] | [GET/POST/PUT] | `/api/v1/[rutas]` | [COMPLETAR] | [COMPLETAR] | [COMPLETAR] |
-
-*(Nota: Si no documentaron nuevos endpoints en este sprint, puedes reemplazar esta tabla por: "Durante este Sprint 4, la arquitectura de Web Services se mantuvo estable conforme a la documentación Swagger detallada en el Sprint 3, enfocándose los esfuerzos en el consumo de dichas APIs desde el Frontend.")*
+Durante este Sprint, la arquitectura de Web Services se mantuvo estable conforme a la documentación Swagger detallada en el Sprint 3, enfocándose los esfuerzos en el consumo de dichas APIs desde el Frontend:
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
