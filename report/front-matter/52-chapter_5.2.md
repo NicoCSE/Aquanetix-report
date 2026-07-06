@@ -735,12 +735,17 @@ En esta sección se presentan evidencias de la ejecución de los componentes des
   <img src="../assets/LandingPage/Landing2.jpeg">
 </div>
 
-En esta sección se describe el problema abordado y la solución propuesta por el sistema, permitiendo al usuario comprender el propósito y beneficios del servicio.
-
 **Figura 3. Dashboard principal**
 
 <div align="center">
   <img src="../assets/web_applications/Web-App-Cap1.jpg">
+</div>
+
+
+**Figura 4. Registro de nuevo usuario**
+
+<div align="center">
+  <img src="../assets/web_applications/Web-App-IAM.png">
 </div>
 
 
